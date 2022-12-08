@@ -1,0 +1,1 @@
+this is bash scripts for compile C files
