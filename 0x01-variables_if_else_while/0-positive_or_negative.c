@@ -12,11 +12,11 @@ int main(void)
 
 	/* your code goes there */
 	if (n > 0){
-	  return("is positive \n" , n);
+	  return("is positive \n");
 	} else if (n = 0){
-	  return("is zero \n" , n);
+	  return("is zero \n");
 	}else {
-	  return("is negative \n" , n);
+	  return("is negative \n");
 	}
 	
 	return (0);
