@@ -3,7 +3,7 @@
 
 
 /**
- *main: Entry point
+ *main - Entry point
  *
  *Description: prints "Programming is like building a multilingual puzzle"
  *
