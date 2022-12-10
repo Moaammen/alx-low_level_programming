@@ -12,7 +12,7 @@ int main (void)
 
 char i;
 
-for (i = 'a', i >= 'Z', i++)
+ for (i = 'a'; i >= 'Z'; i++)
 {
 
 putchar(i);
