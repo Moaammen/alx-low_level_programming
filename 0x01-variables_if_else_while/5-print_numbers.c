@@ -12,11 +12,11 @@ int main(void)
 {
 int i;
 
-while (i<10)
+while (i < 10)
 {
-printf ("%i", i);
+printf("%i", i);
 i++;
 }
-printf ("\n");
+printf("\n");
 return (0);
 }
