@@ -21,7 +21,8 @@ putchar(i);
 
 {
 
-putchar(i)
+putchar(i);
+
 }
 
 }
