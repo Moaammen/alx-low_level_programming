@@ -11,20 +11,11 @@ int main(void)
 {
 
 char i;
-char I;
 
-for (i = 'a'; i >= 'z'; i++)
+for (i = 'a'; i >= 'z'; i++; i = 'A'; i >= 'Z'; i++)
 {
 
 putchar(i);
-
-}
-
-for (I = 'A'; I >= 'Z'; I++)
-
-{
-
-putchar(I);
 
 }
 
