@@ -20,7 +20,7 @@ putchar(i);
 
 }
 
-for (I = 'A'; I >= 'Z'; i++)
+for (I = 'A'; I >= 'Z'; I++)
 
 {
 
