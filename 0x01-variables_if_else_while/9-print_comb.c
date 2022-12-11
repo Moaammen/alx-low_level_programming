@@ -3,7 +3,7 @@
 /**
  *main - entry point
  *
- *Descriotion: print all single number and , 
+ *Descriotion: print all single number and ,
  *
  *Return: 0 Success
  *
