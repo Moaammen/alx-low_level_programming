@@ -11,32 +11,36 @@
 
 int main(void)
 {
-int st;
-int nd;
-int third;
-int fourth;
+int tens;
+int ones;
+int t;
+int o;
 
-for (st = '0'; st <= '9'; st++)
+for (tens = '0'; tens <= '9'; tens++)
 {
-for (nd = '0'; nd <= '9'; nd++)
+for (ones = '0'; ones <= '9'; ones++)
 {
-for (third = st; third <= '9'; third++)
+for (t = tens; t <= '9'; t++)
 {
-for (fourth = nd + 1; fourth <= '9'; fourth++)
-putchar (st);
-putchar (nd);
-putchar (' ');
-putchar (third);
-putchar (fourth);
-if (!((st == '9' && nd == '8') &&
-(third == '9' && fourth == '9')))
+for (o = ones + 1; o <= '9'; o++)
 {
-putchar (',');
-putchar (' ');
+putchar(tens);
+putchar(ones);
+putchar(' ');
+putchar(t);
+putchar(o);
+
+if (!((tens == '9' && ones == '8') && (t == '9' && o == '9')))
+{
+putchar(',');
+putchar(' ');
+}
+}
+o = '0';
 }
 }
 }
-}
-putchar ('\n');
+putchar('\n');
+
 return (0);
 }
