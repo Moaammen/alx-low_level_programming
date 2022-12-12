@@ -21,7 +21,7 @@ for (y = (h + 1); y <= '9'; y++)
 
 {
 
-for (i = (y+1); i <= '9'; i++)
+for (i = (y + 1); i <= '9'; i++)
 
 {
 
@@ -31,22 +31,13 @@ putchar(i);
 
 if (h != '7' || y != '8' || i != '9')
 
-
 {
-
 putchar (',');
 putchar (' ');
-
 }
-
 }
-
 }
-
 }
-
 putchar ('\n');
-
 return (0);
-
 }
