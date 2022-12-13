@@ -14,12 +14,17 @@ char a = 'a';
 char b = '0';
 while (b <= '9')
 {
+
+_putchar ('\n');
+
+
 b++;
+
 while (a <= 'z')
+
 {
 _putchar (a);
 a++;
-_putchar ('\n');
 }
 }
 }
