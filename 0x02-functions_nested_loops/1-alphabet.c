@@ -6,7 +6,7 @@ char a;
 while (a <= 'z')
 {
 _putchar (a);
-i++;
+a++;
 
 }
 }
