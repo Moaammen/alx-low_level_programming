@@ -1,7 +1,7 @@
-#ifndef"main.h"
+#ifndef
 
 int _putchar(char c)
 
 
-#define"main.h"
+#define
 #endif
