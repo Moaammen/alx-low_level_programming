@@ -1,10 +1,9 @@
 #include "main.h"
 
-
 /**
- *main - entry point
+ *print_alphabet - function
  *
- *Description: print alphabet
+ *Description: print_alphabet
  *
  *Return: 0 Success
  */
@@ -18,4 +17,5 @@ _putchar (a);
 a++;
 
 }
+_putchar ('\n');
 }
