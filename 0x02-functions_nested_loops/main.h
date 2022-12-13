@@ -1,10 +1,10 @@
-#ifndef _MAIN.H_
-#define _MAIN.H_
+#ifndef main.h
+#define main.h
 /**
  *prototype: _putchar function
  */
 
-int _putchar(char c)
+int _putchar(char c);
 
 
 #endif
