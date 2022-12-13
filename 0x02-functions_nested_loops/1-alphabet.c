@@ -2,10 +2,10 @@
 
 void print_alphabet(void)
 {
-char i;
-if (i <= 'z')
+char a;
+while (a <= 'z')
 {
-_putchar (i);
+_putchar (a);
 i++;
 
 }
