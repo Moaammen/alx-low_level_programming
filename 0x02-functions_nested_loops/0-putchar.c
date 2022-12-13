@@ -1,8 +1,14 @@
+#include <stdio.h>
 #include "main.h"
 
-int main(void)
-{
-  _putchar("_putchar");
+int _putchar(char c)
 
-  return (0);
+int main (void)
+{
+
+  
+_putchar();
+
+
+return (0);
 }
