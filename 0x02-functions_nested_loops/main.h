@@ -16,3 +16,7 @@ void print_alphabet_x10(void);
  *islower function
  */
 int _islower(int c);
+/**
+ *is alpha function
+ */
+int _isalpha(int c);
