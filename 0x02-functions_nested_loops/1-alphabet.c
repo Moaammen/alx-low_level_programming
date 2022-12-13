@@ -3,10 +3,11 @@
 void print_alphabet(void)
 {
 char i;
-wihle (i <= 'z')
+if (i <= 'z')
 {
 _putchar (i);
 i++;
+
 }
 }
 
