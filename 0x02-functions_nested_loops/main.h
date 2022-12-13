@@ -12,3 +12,7 @@ void print_alphabet(void);
  *print alphabet x10 function
  */
 void print_alphabet_x10(void);
+/**
+ *islower function
+ */
+int _islower(int c);
