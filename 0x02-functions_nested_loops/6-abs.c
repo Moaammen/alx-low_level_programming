@@ -8,11 +8,11 @@
  *Return: 0 Success
  *
  */
-int _abs(int)
+int _abs(int n)
 {
 int n;
 int result;
 
-result = n * -1
+int result = n * -1;
 return result;
 }
