@@ -6,7 +6,7 @@
  *
  *Return : 0 Success
  */
-void jack_bauer(void);
+void jack_bauer(void)
 {
 char h1;
 char h2;
