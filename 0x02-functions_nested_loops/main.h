@@ -29,3 +29,7 @@ int print_sign(int n);
  *the abslout value for integer
  */
 int _abs(int n);
+/**
+ *print the last digit
+ */
+int print_last_digit(int n);
