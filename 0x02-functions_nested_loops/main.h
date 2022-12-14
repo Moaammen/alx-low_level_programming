@@ -41,3 +41,7 @@ void jack_bauer(void);
  *print times table
  */
 void times_table(void);
+/**
+ *add function
+ */
+int add(int x, int y);
