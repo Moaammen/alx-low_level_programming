@@ -21,16 +21,16 @@ for (m1 = '0'; m1 <= '5'; m1++)
 {
 for (m2 = '0'; m2 <= '9'; m2++)
 {
-if (h1 == '2' && h2 == '3' && m1 == '5' && m2 == '9')
-{
-break;
-}
 _putchar (h1);
 _putchar (h2);
 _putchar (':');
 _putchar (m1);
 _putchar (m2);
 _putchar ('\n');
+if (h1 == '2' && h2 == '3' && m1 = '5' && m2 '9')
+{
+return;
+}
 }
 }
 }
