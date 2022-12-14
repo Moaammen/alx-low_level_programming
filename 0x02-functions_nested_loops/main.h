@@ -28,4 +28,4 @@ int print_sign(int n);
 /**
  *the abslout value for integer
  */
-int _abs(int);
+int _abs(int n);

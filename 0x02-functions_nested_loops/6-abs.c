@@ -1,5 +1,7 @@
 #include "main.h"
 
+
+
 /**
  *_abs - function return the abslout value of int
  *
@@ -8,7 +10,7 @@
  *Return: 0 Success
  *
  */
-int _abs(void)
+int _abs(int n)
 {
 int n;
 if (n < 0)
