@@ -40,4 +40,4 @@ void jack_bauer(void);
 /**
  *print times table
  */
-void time_table(void);
+void times_table(void);
