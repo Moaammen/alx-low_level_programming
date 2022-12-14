@@ -45,3 +45,7 @@ void times_table(void);
  *add function
  */
 int add(int x, int y);
+/**
+ *print_to_98 function
+ */
+void print_to_98(int n);
