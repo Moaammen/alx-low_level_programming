@@ -26,7 +26,7 @@ if (b < 9)
 _putchar (',');
 _putchar (' ');
 }
-if (c <= 9)
+if (c <= 9 && a < 3)
 {
 _putchar (' ');
 }
