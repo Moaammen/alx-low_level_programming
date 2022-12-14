@@ -9,12 +9,12 @@
  */
 void times_table(void)
 {
-int i;
-int n;
-int result = (i * n);
-for (i = 0; i <= 9; i++)
+char i;
+char n;
+char result = (i * n);
+for (i = '0'; i <= '9'; i++)
 {
-for (n = 0; n <= 9; n++)
+for (n = '0'; n <= '9'; n++)
 {
 _putchar (result);
 _putchar (',');
