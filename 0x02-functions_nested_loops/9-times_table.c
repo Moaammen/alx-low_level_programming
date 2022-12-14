@@ -33,7 +33,7 @@ _putchar (' ');
 }
 if (b == 9)
 {
-_putchar ('\n')
+_putchar ('\n');
 }
 }
 }
