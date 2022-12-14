@@ -31,7 +31,10 @@ _putchar ((c % 10) + '0');
 _putchar (',');
 _putchar (' ');
 }
+if (b == 9)
+{
+_putchar ('\n')
 }
-_putchar ('\n');
+}
 }
 }
