@@ -10,8 +10,6 @@
  */
 int _abs(int n)
 {
-int n;
-int result;
 
 int result = n * -1;
 return result;
