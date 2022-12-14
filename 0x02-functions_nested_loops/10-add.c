@@ -2,7 +2,7 @@
 /**
  *add - function
  *
- *Description: add two number 
+ *Description: add two number
  *
  *Return: result success
  */
