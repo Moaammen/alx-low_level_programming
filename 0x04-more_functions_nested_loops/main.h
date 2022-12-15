@@ -26,3 +26,7 @@ void print_most_numbers(void);
  * more_numbers: function print from 0 to 14 with _putchar
  */
 void more_numbers(void);
+/**
+ * print_line: function that print _ 
+ */
+void print_line(int n);
