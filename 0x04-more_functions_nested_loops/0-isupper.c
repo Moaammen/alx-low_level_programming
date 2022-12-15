@@ -9,7 +9,7 @@
 
 int _isupper(int c)
 {
-if (c <= "Z")
+if (c <= Z)
 {
 return (1);
 }
