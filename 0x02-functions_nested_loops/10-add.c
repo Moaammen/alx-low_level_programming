@@ -3,7 +3,7 @@
  *add - function
  *
  *Description: add two number
- *@x: integer 
+ *@x: integer
  *@y: integer
  *Return: result success
  */
