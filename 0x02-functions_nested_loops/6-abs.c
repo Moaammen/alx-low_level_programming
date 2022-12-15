@@ -6,7 +6,7 @@
  *_abs - function return the abslout value of int
  *
  *Description: Return the abslout value of n
- *
+ *@n: integer
  *Return: 0 Success
  *
  */
