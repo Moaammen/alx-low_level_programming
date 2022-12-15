@@ -1,8 +1,8 @@
 #include "main.h"
 
 /**
- *print_numbers - function print numbers 
- *@c: charater
+ *print_numbers - function print numbers
+ *Description: print numbers
  * Return: 0 success
  */
 
