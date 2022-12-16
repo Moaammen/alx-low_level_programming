@@ -23,9 +23,11 @@ _putchar (' ');
 }
 /** this loop should print # in each row*/
 for (h = 1; h <= w; h++)
+{
 _putchar ('#');
 }
 _putchar ('\n');
+}
 }
 else
 {
