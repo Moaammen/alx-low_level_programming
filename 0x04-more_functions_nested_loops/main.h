@@ -38,3 +38,7 @@ void print_diagonal(int n);
  * print_square: function print square
  */
 void print_square(int size);
+/**
+ * print triangle: function print triangle
+ */
+void print_triangle(int size);
