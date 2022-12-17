@@ -20,21 +20,21 @@ c = a * b;
 if (b == 0)
 {
 
-_putchar ((c % 10) + '0');
+_putchar ('0' + c);
 }
 if (c <= 9)
 {
 _putchar (',');
 _putchar (' ');
 _putchar (' ');
-_putchar ((c % 10) + '0');
+_putchar ('0' + c);
 }
 else if (c > 9)
 {
 _putchar (',');
 _putchar (' ');
-_putchar ((c / 10) + '0');
-_putchar ((c % 10) + '0');
+_putchar ('0' + (c / 10));
+_putchar ('0' + (c % 10));
 }
 }
 _putchar ('\n');
