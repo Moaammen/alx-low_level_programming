@@ -47,7 +47,7 @@ else if (c >= 100)
 {
 _putchar (',');
 _putchar (' ');
-_putchar ('0' + (c / 10));
+_putchar ('0' + (c / 100));
 _putchar ('0' + ((c / 10) % 10));
 _putchar ('0' + (c % 10));
 }
