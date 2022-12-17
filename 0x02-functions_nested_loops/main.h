@@ -49,3 +49,7 @@ int add(int x, int y);
  *print_to_98 function
  */
 void print_to_98(int n);
+/**
+ * function print any time table from 1 to 14
+ */
+void print_times_table(int n);
