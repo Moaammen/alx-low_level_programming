@@ -35,12 +35,20 @@ _putchar (' ');
 _putchar (' ');
 _putchar ('0' + c);
 }
-else if (c > 9)
+else if (c > 9 && c < 100)
 {
 _putchar (',');
 _putchar (' ');
 _putchar (' ');
 _putchar ('0' + (c / 10));
+_putchar ('0' + (c % 10));
+}
+else if (c >= 100)
+{
+_putchar (',');
+_putchar (' ');
+_putchar ('0' + (c / 10));
+_putchar ('0' + ((c / 10) % 10));
 _putchar ('0' + (c % 10));
 }
 }
