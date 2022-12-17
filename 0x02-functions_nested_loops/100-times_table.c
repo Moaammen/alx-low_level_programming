@@ -2,15 +2,17 @@
 /**
  *print_times_table - function
  *@n: integer
- *Return: 0 Success
  */
 void print_times_table(int n)
 {
 if (n < 0 || n >= 15)
-{}
+{
+}
 else
 {
-int a, int b, int c;
+int a;
+int b;
+int c;
 for (a = 0; a <= n; a++)
 {
 for (b = 0; b <= n; b++)
