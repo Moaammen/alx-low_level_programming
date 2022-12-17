@@ -22,7 +22,7 @@ if (b == 0)
 
 _putchar ('0' + c);
 }
-if (c <= 9)
+else if (c <= 9)
 {
 _putchar (',');
 _putchar (' ');
