@@ -10,9 +10,7 @@ if (n < 0 || n >= 15)
 }
 else
 {
-int a;
-int b;
-int c;
+int a; int b; int c;
 for (a = 0; a <= n; a++)
 {
 for (b = 0; b <= n; b++)
