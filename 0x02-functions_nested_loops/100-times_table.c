@@ -2,12 +2,12 @@
 /**
  *print_times_table - function
  *@n: integer
- *Description: print times table
  *Return: 0 Success
  */
 void print_times_table(int n)
 {
 if (n < 0 || n >= 15)
+{}
 else
 {
 int a, b, c
