@@ -17,3 +17,9 @@ void swap_int(int *a, int *b);
  * _strlen: function print length of string
  */
 int _strlen(char *s);
+
+/**
+ * _purs: function print string
+ */
+void _puts(char(char *str);
+
