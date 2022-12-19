@@ -3,17 +3,24 @@
 /**
  * print_rev - function print string in reverse
  * @s: character
- * Return: length Success
  */
 
 void print_rev(char *s)
 {
 int counter = 0;
+int i;
 
-while (s = '\0')
+while (*s != '\0')
 {
 counter++;
-_putchar (*s--);
+++s;
+}
+s--;
+
+for (i = counter; i > 0; i--)
+{
+_putchar (*s);
+s--;
 }
 _putchar ('\n');
 }
