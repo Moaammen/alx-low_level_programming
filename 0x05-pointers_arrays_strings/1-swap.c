@@ -9,8 +9,8 @@
 
 void swap_int (int *a, int *b)
 {
-int bridge;
-bridge = a;
-a = b;
-b = bridge;
+int *bridge;
+*bridge = *a;
+*a = *b;
+*b = *bridge;
 }
