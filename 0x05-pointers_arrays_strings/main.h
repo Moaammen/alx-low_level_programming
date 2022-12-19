@@ -21,5 +21,5 @@ int _strlen(char *s);
 /**
  * _purs: function print string
  */
-void _puts(char(char *str);
+void _puts(char *str);
 
