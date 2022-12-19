@@ -23,3 +23,7 @@ int _strlen(char *s);
  */
 void _puts(char *str);
 
+/**
+ * print rev: function print string in reverse
+ */
+void print_rev(char *s);
