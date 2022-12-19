@@ -19,7 +19,7 @@ while (count >= 0)
 
 if (s[count] == '\0')
 break;
-count++
+count++;
 }
 
 str = s;
