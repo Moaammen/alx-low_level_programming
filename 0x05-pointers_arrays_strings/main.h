@@ -42,3 +42,12 @@ void puts2(char *str);
  * puts_half: print half string
  */
 void puts_half(char *str);
+
+/**
+ * print_array: function elements of array
+ */
+void print_array(int *a, int n);
+/**
+ * _strcpy: function copy string
+ */
+char *_strcpy(char *dest, char *src);
