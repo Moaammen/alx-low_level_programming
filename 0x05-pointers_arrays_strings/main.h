@@ -37,3 +37,8 @@ void rev_string(char *s);
  * puts2: function print every other character
  */
 void puts2(char *str);
+
+/**
+ * puts_half: print half string
+ */
+void puts_half(char *str);

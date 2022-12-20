@@ -1,8 +1,8 @@
 #include "main.h"
 
 /**
- * puts - function print every other character
- * @str: string
+ *puts- function print every other character
+ *@str: string
  *Return: nothing
  */
 
