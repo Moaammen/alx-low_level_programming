@@ -32,3 +32,8 @@ void print_rev(char *s);
  * rev_string: function print string in reverse
  */
 void rev_string(char *s);
+
+/**
+ * puts2: function print every other character
+ */
+void puts2(char *str);
