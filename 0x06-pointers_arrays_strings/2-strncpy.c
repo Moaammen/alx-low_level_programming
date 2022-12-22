@@ -20,6 +20,6 @@ dest++;
 src++;
 }
 
-*dest = '\0';
-return (dest);
+n = 0;
+return (ptr);
 }
