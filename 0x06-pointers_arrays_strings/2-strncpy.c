@@ -19,7 +19,5 @@ while (*src != '\0' && n--)
 dest++;
 src++;
 }
-
-n < 0;
 return (ptr);
 }
