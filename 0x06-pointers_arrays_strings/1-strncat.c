@@ -27,10 +27,10 @@ char *_strncat(char *dest, char *src, int n)
 {
 char *ptr = dest + _strlen(dest);
 
-while (*src < (n + 1))
+while (*src != '\0' && n--)
 {
 *ptr++ = *src++;
 }
-*ptr = (n + 1);
+*ptr = '\0';
 return (dest);
 }
