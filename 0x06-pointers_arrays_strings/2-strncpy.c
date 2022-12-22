@@ -19,5 +19,9 @@ while (*src != '\0' && n--)
 dest++;
 src++;
 }
+while (n != 0)
+{
+*ptr++;
+}
 return (ptr);
 }
