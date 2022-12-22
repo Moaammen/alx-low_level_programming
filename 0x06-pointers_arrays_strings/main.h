@@ -20,3 +20,10 @@ char *_strcat(char *dest, char *src);
  * *_strncat: function concatenates string wiht specific characters from another string
  */
 char *_strncat(char *dest, char *src, int n);
+
+/**
+ * _strncpy: function copy string
+ */
+
+char *_strncpy(char *dest, char *src, int n);
+
