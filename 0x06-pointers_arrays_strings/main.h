@@ -40,4 +40,4 @@ void reverse_array(int *a, int n);
 /**
  * *string_toupper: function change lowercase letters to uppercase letter
  */
-char *string_toupper(char *str);
+char *string_toupper(char *);
