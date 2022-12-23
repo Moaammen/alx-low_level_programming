@@ -1,5 +1,4 @@
 #include "main.h"
-#include <stdio.h>
 /**
  * reverse_array - function
  * Description: reverse n elements of array
@@ -9,16 +8,16 @@
  */
 void reverse_array(int *a, int n)
 {
-int i = n - 1;
+int start = 0;
+int end = n - 1;
+int temp;
 
-while(i >= 0)
+while (start < end)
 {
-if(i != n - 1)
-{
-printf(", ");
+temp = a[start];
+a[start] = a[end];
+a[end] = temp;
+start++;
+end--;
 }
-printf("%d", a[i]);
-i--;
-}
-printf ("\n");
 }
