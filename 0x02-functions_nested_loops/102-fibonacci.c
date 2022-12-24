@@ -22,7 +22,7 @@ printf("%ld", numb3);
 numb1 = numb2;
 numb2 = numb3;
 
-if (i != 50)
+if (i != 49)
 {
 printf (", ");
 }
