@@ -24,10 +24,10 @@ numb2 = numb3;
 
 if (i != 49)
 {
-printf (", ");
+printf(", ");
 }
 }
-printf ("\n");
+printf("\n");
 
 return (0);
 
