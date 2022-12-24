@@ -9,57 +9,39 @@
 
 void print_number(int n)
 {
-if (n < 0)
+unsigned int m;
+int c;
+unsigned int num;
+
+num = n;
+
+if (num < 0)
 {
+num *= -1;
 _putchar('-');
-n = n * -1;
-if (n / 10 == 0)
-{
-_putchar(n % 10 + '0');
-}
-else if (n / 100 == 0)
-{
-_putchar(n / 10 + '0');
-_putchar(n % 10 + '0');
-}
-else if ((n / 1000 == 0) || (n / 1000 < 0))
-{
-_putchar(n / 100 + '0');
-_putchar((n / 100) / 10 + '0');
-_putchar(n % 10 + '0');
-}
-else
-{
-_putchar(n / 1000 + '0');
-_putchar((n / 1000) / 100 + '0');
-_putchar(((n / 1000) / 100) / 10 + '0');
-_putchar(n % 10 + '0');
-}
 }
 
+m = 1;
+c = 1;
+while (c)
+{
+if (num / (m * 10) > 0)
+m *= 10;
+else
+c = 0;
+}
+
+while (num >= 0)
+{
+if (m == 1)
+{
+_putchar(num % 10 + '0');
+num = -1;
+}
 else
 {
-if (n / 10 == 0)
-{
-_putchar(n % 10 + '0');
-}
-else if (n / 100 == 0)
-{
-_putchar(n / 10 + '0');
-_putchar(n % 10 + '0');
-}
-else if ((n / 1000 == 0) || (n / 1000 < 0))
-{
-_putchar(n / 100 + '0');
-_putchar((n / 100) / 10 + '0');
-_putchar(n % 10 + '0');
-}
-else
-{
-_putchar(n / 1000 + '0');
-_putchar((n / 1000) / 100 + '0');
-_putchar(((n / 1000) / 100) / 10 + '0');
-_putchar(n % 10 + '0');
+_putchar((num / m % 10) + '0');
+m /= 10;
 }
 }
 }
