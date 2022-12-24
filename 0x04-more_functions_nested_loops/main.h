@@ -42,3 +42,7 @@ void print_square(int size);
  * print triangle: function print triangle
  */
 void print_triangle(int size);
+/**
+*print_number: function print integer using putchar
+*/
+void print_number(int n);
