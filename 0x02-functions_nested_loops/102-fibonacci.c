@@ -9,7 +9,6 @@
 int main(void)
 {
 int i;
-int n = 50;
 int numb1 = 1;
 int numb2 = 2;
 int numb3 = numb1 + numb2;
@@ -25,8 +24,6 @@ printf("%d, ", numb3);
 }
 
 return (0);
-
-
 
 
 }
