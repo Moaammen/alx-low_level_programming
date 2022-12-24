@@ -1,4 +1,4 @@
-#include <stdio.h>
+#include "main.h"
 
 /**
 *print_number - function
@@ -7,34 +7,60 @@
 *Return: 0 success
 */
 
-
 void print_number(int n)
-{
-unsigned int tens, digit, positive = n;
-double t_beg = 1;
-
-if (n == 0)
-_putchar('0');
-else
 {
 if (n < 0)
 {
-positive = n * -1;
-_putchar('-');
-}
-
-while (t_beg <= positive)
-t_beg *= 10;
-tens = t_beg / 10;
-
-while (tens >= 1)
+putchar('-');
+n = n * -1;
+if (n / 10 == 0)
 {
-digit = positive / tens;
-_putchar(digit + '0');
-positive = (positive - (tens * digit));
-tens /= 10;
+putchar(n % 10 + '0');
 }
+else if (n / 100 == 0)
+{
+putchar(n / 10 + '0');
+putchar(n % 10 + '0');
+}
+else if ((n / 1000 == 0 )|| (n / 1000 < 0))
+{
+putchar(n / 100 + '0');
+putchar((n / 100) / 10 + '0');
+putchar(n % 10 + '0');
+}
+else
+{
+putchar(n / 1000 + '0');
+putchar((n / 1000) / 100 + '0');
+putchar((n / 100) / 10 + '0');
+putchar(n % 10 + '0');
 }
 }
 
+else
+{
+if (n / 10 == 0)
+{
+putchar(n % 10 + '0');
+}
+else if (n / 100 == 0)
+{
+putchar(n / 10 + '0');
+putchar(n % 10 + '0');
+}
+else if ((n / 1000 == 0)|| (n / 1000 < 0))
+{
+putchar(n / 100 + '0');
+putchar((n / 100) / 10 + '0');
+putchar(n % 10 + '0');
+}
+else
+{
+putchar(n / 1000 + '0');
+putchar((n / 1000) / 100 + '0');
+putchar((n / 100) / 10 + '0');
+putchar(n % 10 + '0');
+}
+}
+}
 
