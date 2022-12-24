@@ -9,19 +9,25 @@
 int main(void)
 {
 int i;
-int numb1 = 1;
-int numb2 = 2;
-int numb3 = numb1 + numb2;
+long numb1 = 1;
+long numb2 = 2;
+long numb3;
 
-printf("%d, %d, ", numb1, numb2);
+printf("%ld, %ld, ", numb1, numb2);
 
-for (i = 0; i <= 50; i++)
+for (i = 2; i < 50; ++i)
 {
+numb3 = numb1 + numb2;
+printf("%ld", numb3);
 numb1 = numb2;
 numb2 = numb3;
-numb3 = numb1 + numb2;
-printf("%d, ", numb3);
+
+if (i != 50)
+{
+printf (", ");
 }
+}
+printf ("\n");
 
 return (0);
 
