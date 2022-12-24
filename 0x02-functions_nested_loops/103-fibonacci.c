@@ -8,26 +8,19 @@
 
 int main(void)
 {
-int i;
-long numb1 = 1;
-long numb2 = 2;
-long numb3;
+	int a1 = 1;
+	int b1 = 2;
+	int total = 0;
+	int c1;
 
-printf("%ld, %ld", numb1, numb2);
-
-for (i = 2; i < 50; i++)
-{
-numb3 = numb1 + numb2;
-numb1 = numb2;
-numb2 = numb3;
-if (numb3 < 4000000 && (numb3 % 2) == 0)
-{
-printf(", %ld", numb3);
-
-}
-
-}
-printf("\n");
-
-return (0);
+	while (b1 < 4000000)
+	{
+		if (b1 % 2 == 0)
+			total += b1;
+		c1 = b1;
+		b1 += a1;
+		a1 = c1;
+	}
+	printf("%d\n", total);
+	return (0);
 }
