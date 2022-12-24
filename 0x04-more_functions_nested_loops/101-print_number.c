@@ -9,9 +9,9 @@
 
 void print_number(int n)
 {
-unsigned int m;
+long m;
 int c;
-unsigned int num;
+long num;
 
 num = n;
 
