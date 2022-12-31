@@ -25,7 +25,7 @@ while (s[i] >= 48 && s[i] <= 57)
 	minus = -1;
 	}
 
-value = (value * 10) - 48;
+value = value * 10 + (s[i] - 48);
 i++;
 }
 
