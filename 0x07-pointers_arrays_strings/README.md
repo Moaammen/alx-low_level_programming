@@ -1,5 +1,3 @@
+**Alx_low_level_programming.**<br>
 
-##Alx_low_level_**programming.**<br>
-
-
-####pointers_arrays_strings <br>
+pointers_arrays_strings <br>
