@@ -14,9 +14,10 @@ char *_strchr(char *s, char c);
 
 char *_strpbrk(char *s, char *accept)
 {
+char *result;
 if ((s == NULL) || (accept == NULL))
 {
-return (NULL);
+result = NULL;
 }
 
 while (*s)
@@ -24,12 +25,13 @@ while (*s)
 
 if (_strchr(accept, *s))
 {
-return (s);
+*result = *s;
+result++;
 }
 else
 {
 s++;
 }
 }
-return (NULL);
+return (result);
 }
