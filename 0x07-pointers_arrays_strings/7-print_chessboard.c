@@ -17,7 +17,7 @@ while (i < 8)
 	{
 		printf("%c", a[i][j]);
 	}
-printf ("\n");
+printf("\n");
 i++;
 }
 }
