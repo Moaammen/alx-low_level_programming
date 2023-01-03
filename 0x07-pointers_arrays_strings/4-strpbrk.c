@@ -22,7 +22,7 @@ return (NULL);
 while (*s)
 {
 
-if (_strchr(*accept, *s))
+if (_strchr(accept, *s))
 {
 return (s);
 }
