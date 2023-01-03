@@ -3,7 +3,8 @@
 
 /**
 *print_diagsums - function.
-*Description: function that prints the sum of the two diagonals of a square matrix of integers.
+*Description: function that prints the sum of the two diagonals
+*of a square matrix of integers.
 *@a: array.
 *@size: integer.
 *Return: 0 success.
