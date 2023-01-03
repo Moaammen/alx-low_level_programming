@@ -11,7 +11,7 @@ int _putchar(char c);
 
 /**
 *_memset - function that fills memory with a constant byte.
-*@s: pointer to memory area.
+*@s: string.
 *@b: charcter.
 *@n: integer.
 *Return: pointer.
@@ -21,10 +21,10 @@ char *_memset(char *s, char b, unsigned int n);
 
 /**
 *_memcpy - function that copies memory area.
-*@dest: array
-*@src: array
-*@n: integer
-*Return: pointer
+*@dest: string.
+*@src: string.
+*@n: integer.
+*Return: pointer.
 */
 
 char *_memcpy(char *dest, char *src, unsigned int n);
@@ -59,5 +59,15 @@ unsigned int _strspn(char *s, char *accept);
 */
 
 char *_strpbrk(char *s, char *accept);
+
+/**
+*_strstr - function.
+*Description: function that locates a substring.
+*@haystack: string.
+*@needle: substring.
+*Return: pointer.
+*/
+char *_strstr(char *haystack, char *needle);
+
 
 #endif
