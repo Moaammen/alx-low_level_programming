@@ -1,8 +1,22 @@
 #include "main.h"
 #include <stddef.h>
 
-char *_strchr(char *s, char c);
+char *_strchr(char *s, char c)
+{
 
+while (*s != c && *s != '\0')
+{
+		s++;
+}
+if (*s == c)
+{
+return (s);
+}
+else
+{
+return (NULL);
+}
+}
 /**
 *_strpbrk - function.
 *Description: function that searches a string for any of a set of bytes.
@@ -14,24 +28,21 @@ char *_strchr(char *s, char c);
 
 char *_strpbrk(char *s, char *accept)
 {
-char *result;
 if ((s == NULL) || (accept == NULL))
 {
-result = NULL;
+return (NULL);
 }
-
 while (*s)
 {
 
 if (_strchr(accept, *s))
 {
-*result = *s;
-result++;
+return (s);
 }
 else
 {
 s++;
 }
 }
-return (result);
+return (NULL);
 }
