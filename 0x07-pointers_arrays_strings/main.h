@@ -69,5 +69,14 @@ char *_strpbrk(char *s, char *accept);
 */
 char *_strstr(char *haystack, char *needle);
 
+/**
+*print_chessboard - function
+*Description: print_chessboard.
+*@a: array.
+*Return: 0 success
+*/
+
+void print_chessboard(char (*a)[8]);
+
 
 #endif
