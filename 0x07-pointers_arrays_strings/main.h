@@ -49,4 +49,15 @@ char *_strchr(char *s, char c);
 
 unsigned int _strspn(char *s, char *accept);
 
+/**
+*_strpbrk - function.
+*Description: function that searches a string for any of a set of bytes.
+*@s: string.
+*@accept: substring.
+*Return: a pointer to the byte in s that matches of the bytes in accept
+* or NULL if no byte is found.
+*/
+
+char *_strpbrk(char *s, char *accept);
+
 #endif
