@@ -1,4 +1,4 @@
 #!/bin/bash
-gcc -Wall -Werror -Wextra -pedantic -std=gnu89 -c *.c
-ar -crs -s libmy.a *.o
+gcc -Wall -Werror -Wextra -pedantic -c *.c
+ar -crs -s liball.a *.o
 
