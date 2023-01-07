@@ -25,7 +25,7 @@ for (count = 1; count < argc; count++)
 sum = atoi(argv[count]);
 if (sum == 0)
 {
-printf ("Error\n");
+printf("Error\n");
 return (1);
 }
 else
