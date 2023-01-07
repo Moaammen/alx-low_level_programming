@@ -7,7 +7,7 @@
 *@argv: array of strings.
 *Return: number of arguments.
 */
-int main(int argc, char *argv)
+int main(int argc, char *argv[])
 
 {
 
