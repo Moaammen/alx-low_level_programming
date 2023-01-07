@@ -11,23 +11,30 @@
 
 int main(int argc, char *argv[])
 {
-int numb1;
-int numb2;
-int mul;
+	int numb1;
+
+	int numb2;
+
+	int mul;
+
 if (argc == 3)
 {
-numb1 = atoi(argv[1]);
-numb2 = atoi(argv[2]);
-mul = (numb1 * numb2);
-printf ("%d\n", mul);
+	numb1 = atoi(argv[1]);
 
+	numb2 = atoi(argv[2]);
+
+	mul = (numb1 * numb2);
+
+	printf("%d\n", mul);
 }
-else
 
+else
 {
 
-printf("Error\n");
+	printf("Error\n");
 
 }
+
 return (0);
+
 }
