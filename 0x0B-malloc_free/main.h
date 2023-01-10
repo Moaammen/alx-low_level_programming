@@ -27,9 +27,18 @@ char *_strdup(char *str);
 *str_concat -  function that concatenates two strings.
 *@s1: string.
 *@s2: string.
-*Return: a pointer to the duplicated string.
+*Return: a pointer to the concatenate strings.
 */
 
 char *str_concat(char *s1, char *s2);
+
+/**
+*alloc_grid - function that returns a pointer to a 2 dimensional array of integers
+*@width: integer.
+*@height: integer.
+*Return: a pointer to a 2 dimensional array of integers.
+*/
+
+int **alloc_grid(int width, int height);
 
 #endif
