@@ -22,8 +22,6 @@ if (s2 == NULL)
 {
 s2 = "";
 }
-else
-{
 
 len1 = strlen(s1);
 len2 = strlen(s2);
@@ -43,7 +41,6 @@ while (j <= len2)
 *(ptr + i) = *(s2 + j);
 i++;
 j++;
-}
 }
 return (ptr);
 }
