@@ -24,14 +24,14 @@ else
 {
 i = strlen(str);
 
-ptr = malloc(i + 1 *sizeof(char));
+ptr = malloc(i *sizeof(char));
 
 if (ptr == NULL)
 {
 return (NULL);
 }
 
-while (j <= i)
+while (j < i)
 {
 ptr[j] = str[j];
 
@@ -39,5 +39,5 @@ j++;
 }
 
 }
-return (NULL);
+return (ptr);
 }
