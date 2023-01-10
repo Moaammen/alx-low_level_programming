@@ -2,45 +2,47 @@
 #include <stdlib.h>
 #include "main.h"
 #include <string.h>
-
 /**
 *str_concat -  function that concatenates two strings.
 *@s1: string.
 *@s2: string.
 *Return: a pointer to the duplicated string.
 */
-
 char *str_concat(char *s1, char *s2)
 
 {
-int i, j = 0;
+int i = 0, j = 0, len1 = 0, len2 = 0;
 char *ptr;
-char *s3;
 
-if ((s1 == NULL) || (s2 == NULL))
+if (s1 == NULL)
 {
-return ('\0');
+s1 = "";
 }
-
+if (s2 == NULL)
+{
+s2 = "";
+}
 else
 {
-s3 = strcat(s1, s2);
-i = strlen(s3);
 
-ptr = malloc(i + 1 * sizeof(char));
+len1 = strlen(s1);
+len2 = strlen(s2);
+ptr = malloc((len1 + len2 + 1) * sizeof(char));
 
 if (ptr == NULL)
 {
 return (NULL);
 }
-
-while (j <= i)
+while (i < len1)
 {
-
-ptr[j] = s3[j];
-
+*(ptr + i) = *(s1 + i);
+i++;
+}
+while (j <= len2)
+{
+*(ptr + i) = *(s2 + j);
+i++;
 j++;
-
 }
 }
 return (ptr);
