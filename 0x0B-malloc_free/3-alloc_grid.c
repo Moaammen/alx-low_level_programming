@@ -13,7 +13,8 @@ int **alloc_grid(int width, int height)
 
 {
 
-int *ptr;
+int **ptr;
+int i = 0;
 
 if ((width <= 0) || (height <= 0))
 {
@@ -26,7 +27,11 @@ if (ptr == NULL)
 {
 return (NULL);
 }
+while (i < (width * height))
+{
 
+*(ptr + i) = 0;
+i++;
+}
 return (ptr);
-
 }
