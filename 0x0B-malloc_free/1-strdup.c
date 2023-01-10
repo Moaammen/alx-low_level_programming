@@ -24,7 +24,7 @@ else
 {
 i = strlen(str);
 
-ptr = malloc(i + 1 *sizeof(char));
+ptr = malloc(i + 1 * sizeof(char));
 
 if (ptr == NULL)
 {
