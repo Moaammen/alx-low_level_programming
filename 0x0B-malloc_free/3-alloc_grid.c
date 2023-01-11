@@ -42,7 +42,7 @@ ptr[i][j] = 0;
 }
 return (ptr);
 
-for (i = 0; i > width; i++)
+for (i = 0; i < width; i++)
 	free (ptr[i]);
 
 free (ptr);
