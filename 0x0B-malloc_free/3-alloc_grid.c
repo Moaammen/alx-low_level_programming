@@ -22,10 +22,10 @@ ptr = malloc(height * sizeof(int *));
 	{
 		return (NULL);
 	}
-for (i = 0; i < height; i++)
+for (i = 0; i < height; i++) /*allocate memory for columns of each row*/
 {
 		ptr[i] = malloc(width * sizeof(int));
-		if (ptr[i] == NULL)
+		if (ptr[i] == NULL) /* validate memory */
 		{
 		for (i = 0; i < height; i++)
 				{
@@ -35,7 +35,7 @@ for (i = 0; i < height; i++)
 		return (NULL);
 		}
 
-	for (j = 0; j < width; j++)
+	for (j = 0; j < width; j++) /* set array values to 0 */
 		{
 			ptr[i][j] = 0;
 		}
