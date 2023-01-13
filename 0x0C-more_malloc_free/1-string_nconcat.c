@@ -22,9 +22,6 @@ if (s1 == NULL)
 if (s2 == NULL)
 	s2 = "";
 
-if (n < 0)
-	return (NULL);
-
 i = strlen(s1);
 j = strlen(s2);
 
