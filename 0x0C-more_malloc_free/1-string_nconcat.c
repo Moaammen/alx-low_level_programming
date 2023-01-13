@@ -14,7 +14,7 @@
 char *string_nconcat(char *s1, char *s2, unsigned int n)
 
 {
-int i, count, count1;
+unsigned int i, count, count1;
 char *newstr;
 if (s1 == NULL)
 	s1 = "";
@@ -32,18 +32,18 @@ if (newstr == NULL)
 for (count = 0; count < i; count++)
 {
 
-newstr[count] = s1[count]
+newstr[count] = s1[count];
 
 }
 
 for (count1 = 0; count1 < n; count1++)
 {
 
-newstr[count] = s2[count1]
+newstr[count] = s2[count1];
 
 count++;
 
 }
-newstr[count++];
-retutn (newstr);
+
+return (newstr);
 }
