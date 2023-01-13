@@ -21,4 +21,13 @@ void *malloc_checked(unsigned int b);
 
 char *string_nconcat(char *s1, char *s2, unsigned int n);
 
+/**
+*_calloc - function allocates memory for an array
+*@nmemb: integer
+*@size: integer
+*Return: pointer to the allocated memory or NULL.
+*/
+
+void *_calloc(unsigned int nmemb, unsigned int size);
+
 #endif
