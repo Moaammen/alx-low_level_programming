@@ -19,7 +19,7 @@ if (min > max)
 	return (NULL);
 
 elem = (max - min) + 1;
-ptr = malloc(elem * sizeof(int));
+ptr = malloc(elem *sizeof(int));
 	if (ptr == NULL)
 		return (NULL);
 
