@@ -49,6 +49,6 @@ newstr[count] = s2[count1];
 count++;
 
 }
-newstr[count + 1] = '\0';
+newstr[count] = '\0';
 return (newstr);
 }
