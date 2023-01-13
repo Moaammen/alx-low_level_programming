@@ -15,7 +15,7 @@ int *array_range(int min, int max)
 int *ptr;
 int elem;
 int i, j = 0;
-if (min > max)
+if ((min > max) || (min < 0) || (max < 0))
 	return (NULL);
 
 for (elem = min; elem <= max; elem++)
