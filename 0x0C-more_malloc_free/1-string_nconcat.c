@@ -14,7 +14,7 @@
 char *string_nconcat(char *s1, char *s2, unsigned int n)
 
 {
-unsigned int i, count, count1;
+unsigned int i, count, j, count1;
 char *newstr;
 if (s1 == NULL)
 	s1 = "";
@@ -22,7 +22,15 @@ if (s1 == NULL)
 if (s2 == NULL)
 	s2 = "";
 
+if (n < 0)
+	return (NULL);
+
 i = strlen(s1);
+j = strlen(s2);
+
+if (j < n)
+	n = j;
+
 
 newstr = malloc((i + n + 1) * sizeof(char));
 
@@ -44,6 +52,6 @@ newstr[count] = s2[count1];
 count++;
 
 }
-
+newstr[count + 1] = '\0';
 return (newstr);
 }
