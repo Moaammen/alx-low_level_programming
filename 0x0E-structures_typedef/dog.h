@@ -17,11 +17,17 @@ char *owner;
 
 /**
 *init_dog - function.
-*@d: pointer to struct.
+*@d: a variable of type struct dog
 *@name: pointer to string.
 *@age: float number for dog age.
 *@owner: pointer for string.
 */
 void init_dog(struct dog *d, char *name, float age, char *owner);
+
+/**
+*print_dog - function.
+*@d: a variable of type struct dog
+*/
+void print_dog(struct dog *d);
 
 #endif
