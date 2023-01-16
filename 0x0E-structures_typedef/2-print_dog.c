@@ -13,22 +13,21 @@ if (d == NULL)
 return;
 }
 
-if (d->name == NULL)
-printf("name: (nil)\n");
+(d->name == NULL) ? printf("name: (nil)\n") : printf("name: %s\n", d->name);
 
-else
-printf("name: %s\n", d->name);
+(d->age == NULL) ? printf("age: (nil)\n") : printf("age: %f\n", d->age);
 
-if (d->age == NULL)
-printf("age: (nil)\n");
-
-esle
-printf("age: %f\n", d->age);
-
-if (d->owner == NULL)
-printf("owner: (nil)\n");
-
-else
-printf("owner: %s\n", d->owner);
+(d->owner == NULL) ? printf("owner: (nil)\n") : printf("owner: %s\n", d->owner);
 }
 
+/**
+*void print_dog(struct dog *d)
+*{
+*if (d != NULL)
+*{
+*printf("Name: %s\n", (d->name) ? d->name : "(nil)");
+*printf("Age: %f\n", (d->age) ? d->age : 0);
+*printf("Owner: %s\n", (d->owner) ? d->owner : "(nil)");
+*}
+*}
+*/
