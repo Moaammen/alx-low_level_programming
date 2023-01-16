@@ -15,7 +15,7 @@ return;
 
 (d->name == NULL) ? printf("name: (nil)\n") : printf("name: %s\n", d->name);
 
-(d->age == NULL) ? printf("age: (nil)\n") : printf("age: %f\n", d->age);
+printf("age: %f\n", d->age);
 
 (d->owner == NULL) ? printf("owner: (nil)\n") : printf("owner: %s\n", d->owner);
 }
