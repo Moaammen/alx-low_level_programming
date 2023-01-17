@@ -32,4 +32,19 @@ void init_dog(struct dog *d, char *name, float age, char *owner);
 */
 void print_dog(struct dog *d);
 
+/**
+ * new_dog - create new instance of struct dog
+ * @name: member
+ * @age: member
+ * @owner: member
+ * Return: initialized instance of struct dog
+ */
+dog_t *new_dog(char *name, float age, char *owner);
+
+/**
+ * free_dog - free instance of struct dog
+ * @d: instance to be freed
+ */
+
+void free_dog(dog_t *d);
 #endif
