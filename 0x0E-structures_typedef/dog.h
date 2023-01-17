@@ -15,6 +15,8 @@ float age;
 char *owner;
 };
 
+typedef struct dog dog_t;
+
 /**
 *init_dog - function.
 *@d: a variable of type struct dog
