@@ -1,8 +1,6 @@
-#ifndef CALC_H
-#define CALC_H
-#include <stdio.h>
-#include <stdlib.h>
-#include <string.h>
+#ifndef PROTOTYPES
+#define PROTOTYPES
+
 /**
  * struct op - Struct op
  *
@@ -52,9 +50,7 @@ int op_div(int a, int b);
 */
 int op_mod(int a, int b);
 
-/**
-* get_op_func - get ops function pointer of type char ar
-*/
-int (*get_op_func(char *s))(int, int);
 
+
+int (*get_op_func(char *s))(int, int);
 #endif
