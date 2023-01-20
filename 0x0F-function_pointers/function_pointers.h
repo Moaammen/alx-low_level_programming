@@ -16,11 +16,19 @@ void print_name(char *name, void (*f)(char *));
 *parameter on each element of an array.
 *@array: array of integers.
 *@size: integer.
-*@action: pointer to function take ine parmeter.
+*@action: pointer to function take int parmeter.
 *Return: 0 success.
 */
 void array_iterator(int *array, size_t size, void (*action)(int));
 
+/**
+*int_index - function that searches for an integer.
+*@array: array of integers.
+*@size: integer.
+*@cmp: pointer to function that take int parmeter.
+*Return: the index of the first element .
+*/
 
+int int_index(int *array, int size, int (*cmp)(int));
 
 #endif
