@@ -1,4 +1,4 @@
-#include "function_pointers"
+#include "function_pointers.h"
 #include <stddef.h>
 #include <stdio.h>
 
@@ -17,16 +17,17 @@ int i;
 if (size <= 0)
 return (-1);
 
-if ((array != NULL) && (cmp != NULL)
+if ((array != NULL) && (cmp != NULL))
 {
 
 for (i = 0; i < size; i++)
 {
 if (array[i] == cmp(array[i]))
-  return (i);
+ break;
 
 else
   return (-1);
 }
 }
+return (i);
 }
