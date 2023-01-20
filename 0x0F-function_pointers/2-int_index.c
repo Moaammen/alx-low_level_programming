@@ -22,12 +22,9 @@ if ((array != NULL) && (cmp != NULL))
 
 for (i = 0; i < size; i++)
 {
-if (array[i] == cmp(array[i]))
- break;
-
-else
-  return (-1);
-}
-}
+if (cmp(array[i]))
 return (i);
+}
+}
+return (-1);
 }
