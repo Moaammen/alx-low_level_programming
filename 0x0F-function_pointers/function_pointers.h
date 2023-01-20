@@ -1,9 +1,13 @@
-#ifndef _HEADER_
-#define _HEADER_
-#include <stdlib.h>
+#ifndef FUNCTION_POINTERS
+#define FUNCTION_POINTERS
 
+
+/**
+*print_name - Function print name.
+*@name: pointer to string.
+*@f: pointer to funtion that print name.
+*Return: 0 Success.
+*/
 void print_name(char *name, void (*f)(char *));
-void array_iterator(int *array, size_t size, void (*action)(int));
-int int_index(int *array, int size, int (*cmp)(int));
 
 #endif
