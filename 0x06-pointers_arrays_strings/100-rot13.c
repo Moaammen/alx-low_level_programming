@@ -11,7 +11,6 @@ char *rot13(char *arr)
 	int j = 0;
 	char in[] = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz";
 	char out[] = "NOPQRSTUVWXYZABCDEFGHIJKLMnopqrstuvwxyzabcdefghijklm";
-	static char buffer[2048];
 
 	while (arr[i] != '\0')
 	{
@@ -19,12 +18,11 @@ char *rot13(char *arr)
 		{
 			if (in[j] == arr[i])
 			{
-				buffer[i] = out[j];
-				break;
+				arr[i] = out[j];
 			}
 		}
 		i++;
 	}
-	buffer[i] = '\0';
-	return (buffer);
+	arr[i] = '\0';
+	return (arr);
 }
