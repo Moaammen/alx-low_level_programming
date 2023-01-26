@@ -23,6 +23,5 @@ char *rot13(char *arr)
 		}
 		i++;
 	}
-	arr[i] = '\0';
 	return (arr);
 }
