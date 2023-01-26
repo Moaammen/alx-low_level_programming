@@ -7,21 +7,24 @@
  */
 char *rot13(char *arr)
 {
-	int i = 0;
-	int j = 0;
-	char in[] = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz";
-	char out[] = "NOPQRSTUVWXYZABCDEFGHIJKLMnopqrstuvwxyzabcdefghijklm";
+	int i;
+	int j;
+	char in[53] = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz";
+	char out[53] = "NOPQRSTUVWXYZABCDEFGHIJKLMnopqrstuvwxyzabcdefghijklm";
 
-	while (arr[i] != '\0')
+	for (j = 0; arr[j] !='\0'; j++)
 	{
-		for (j = 0; j < 52; j++)
-		{
-			if (in[j] == arr[i])
-			{
-				arr[i] = out[j];
-			}
-		}
-		i++;
+                i = 0;
+		while (in[i] != '\0' && arr[j] != in[i])
+                      i++; 
+
+		if (in[i] == arr[j])
+	        	arr[j] = out[i];
+		 
+		
+		
+          
 	}
+
 	return (arr);
 }
