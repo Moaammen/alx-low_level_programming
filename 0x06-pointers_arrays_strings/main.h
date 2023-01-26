@@ -50,3 +50,9 @@ char *cap_string(char *s);
 * leet - encode string into 1337 leet
 */
 char *leet(char *s);
+/**
+ * rot13 - traslate an array of chars to ROT13
+ * @arr: An array of chars
+ * Return: Translated array
+ */
+char *rot13(char *arr);
