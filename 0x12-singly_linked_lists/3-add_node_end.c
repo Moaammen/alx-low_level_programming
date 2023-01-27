@@ -30,9 +30,9 @@ new->len = i;
 new->next = NULL;
 temp = *head;
 if (temp == NULL)
-	{
-		*head = new;
-	}
+{
+	*head = new;
+}
 else
 	{
 		while (temp->next != NULL)
