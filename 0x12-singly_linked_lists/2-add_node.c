@@ -27,7 +27,7 @@ for (i = 0; str[i]; i++)
 ;
 
 new->len = i;
-new->str = *head;
+new->next = *head;
 *head = new;
 
 return (*head);
