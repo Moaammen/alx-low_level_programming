@@ -15,6 +15,7 @@ len = 0;
 
 while (h != NULL)
 {
+h =  h->next;
 len++;
 }
 
