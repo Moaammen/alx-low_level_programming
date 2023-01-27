@@ -35,4 +35,13 @@ size_t print_list(const list_t *h);
  * Return: number of elements.
 */
 size_t list_len(const list_t *h);
+
+/**
+ * add_node - function that adds anew node at the beginning.
+ * @head: pointer to pointer to a list.
+ * @str: string in the list.
+ * Return: pointer to list.
+*/
+list_t *add_node(list_t **head, const char *str);
+
 #endif
