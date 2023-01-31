@@ -1,6 +1,7 @@
 #ifndef LISTS_H
 #define LISTS_H
 #include <stddef.h>
+#include <stdio.h>
 
 /**
  * _putchar - writes the character c to stdout
@@ -30,6 +31,14 @@ struct listint_s *next;
 */
 
 size_t print_listint(const listint_t *h);
+
+/**
+ * listint_len - function return the number of nodes in list.
+ * @h: pointer to the first node in list.
+ * Return: the count.
+*/
+size_t listint_len(const listint_t *h);
+
 
 
 #endif
